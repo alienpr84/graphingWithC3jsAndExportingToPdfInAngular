@@ -1,0 +1,23 @@
+header {
+    padding: 12px 0 8px 15px;
+    background-color: black;
+    color: white;
+    h1 {
+        margin: 0;
+    }
+}
+
+.button-export {
+    text-align: center;
+    padding: 15px 0;
+}
+
+#convertToPdf {
+    &>div.col-12{
+        margin: 25px 0;
+    }
+
+    h2 {
+        text-align: center;
+    }
+}

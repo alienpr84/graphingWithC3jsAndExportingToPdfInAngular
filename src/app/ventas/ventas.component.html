@@ -1,0 +1,27 @@
+<header>
+  <h1>Seguimiento de Ventas</h1>
+</header>
+<section class="container-fluid">
+  <div class="row">
+    <div class="col-12 button-export">
+      <button class="btn btn-primary" (click)="captureScreen()">Exportar a Pdf</button>
+    </div>
+      
+  </div>
+  <div id="convertToPdf" class="row">
+    <div class="col-12"> 
+      <h2>{{data?.ventaDiaria.title}}</h2>
+      <app-venta-diaria [dataSource]="data?.ventaDiaria.dataSource"></app-venta-diaria>
+    </div>
+    <div class="col-12"> 
+        <h2>{{data?.ventaAnual.title}}</h2>
+      <app-venta-anual [dataSource]="data?.ventaAnual.dataSource"></app-venta-anual>
+    </div>
+    <div class="col-12">
+        <h2>{{data?.ventaMensual.title}}</h2>
+        <app-venta-mensual [dataSource]="data?.ventaMensual.dataSource"></app-venta-mensual>
+    </div>
+  </div>
+  
+  
+</section>

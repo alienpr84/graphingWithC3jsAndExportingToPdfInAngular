@@ -1,0 +1,52 @@
+{
+	"reportDate":"3-11-2018",
+	"ventaAnual":{
+		"title":"Venta Anual General en $ por producto",
+		"dataSource": [
+			["x", "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre" ],
+			["Pera", 3000, 3100, 1700, 2750, 2120, 3200, 2090, 3100, 1700, 2050, 2920, 3020],
+			["Manzana", 2900, 2800, 3000, 2820, 2720, 2800, 2990, 3000, 3200, 3050, 3120, 3400],
+			["Maximo", 3200, 3200, 3200, 3200, 3200, 3200, 3200, 3200, 3200, 3200, 3200, 3200],
+			["Promedio", 2950, 2900, 2700, 2800, 2500, 3000, 2450, 3050, 2678, 3000, 3010, 3200 ] 		
+		]
+	},
+	"ventaDiaria": {
+		"title":"Venta diaria en $ de cada producto por tienda",
+		"dataSource":[
+			["x","Tienda1", "Tienda2", "Tienda3"],
+			["Pera", 50, 60, 10],
+			["Manzana", 20, 40, 15]  
+		]
+	},
+	"ventaMensual": {
+		"title": "Ventas del mes de Noviembre",
+		"dataSource": [
+			[
+				"x",
+				"1-Tienda1", "2-Tienda1", "3-Tienda1" ,"4-Tienda1", "5-Tienda1", "6-Tienda1", "7-Tienda1", "8-Tienda1", "9-Tienda1", "10-Tienda1",
+				"11-Tienda1", "12-Tienda1", "13-Tienda1" ,"14-Tienda1", "15-Tienda1", "16-Tienda1", "17-Tienda1", "18-Tienda1", "19-Tienda1", "20-Tienda1",
+				"21-Tienda1", "22-Tienda1", "23-Tienda1" ,"24-Tienda1", "25-Tienda1", "26-Tienda1", "27-Tienda1", "28-Tienda1", "29-Tienda1", "30-Tienda1",
+				
+				"1-Tienda2", "2-Tienda2", "3-Tienda2" ,"4-Tienda2", "5-Tienda2", "6-Tienda2", "7-Tienda2", "8-Tienda2", "9-Tienda2", "10-Tienda2",
+				"11-Tienda2", "12-Tienda2", "13-Tienda2" ,"14-Tienda2", "15-Tienda2", "16-Tienda2", "17-Tienda2", "18-Tienda2", "19-Tienda2", "20-Tienda2",
+				"21-Tienda2", "22-Tienda2", "23-Tienda2" ,"24-Tienda2", "25-Tienda2", "26-Tienda2", "27-Tienda2", "28-Tienda2", "29-Tienda2", "30-Tienda2",
+				
+				"1-Tienda3", "2-Tienda3", "3-Tienda3" ,"4-Tienda3", "5-Tienda3", "6-Tienda3", "7-Tienda3", "8-Tienda3", "9-Tienda3", "10-Tienda3",
+				"11-Tienda3", "12-Tienda3", "13-Tienda3" ,"14-Tienda3", "15-Tienda3", "16-Tienda3", "17-Tienda3", "18-Tienda3", "19-Tienda3", "20-Tienda3",
+				"21-Tienda3", "22-Tienda3", "23-Tienda3" ,"24-Tienda3", "25-Tienda3", "26-Tienda3", "27-Tienda3", "28-Tienda3", "29-Tienda3", "30-Tienda3"
+			],
+			[
+				"Pera", 
+				100, 90, 79, 80, 120, 80, 70, 87, 80, 190, 70, 90, 79, 80, 120, 80, 70, 87, 80, 130, 80, 90, 84, 80, 110, 80, 70, 87, 50, 110,
+				90, 80, 89, 90, 100, 70, 50, 67, 80, 130, 50, 90, 79, 80, 180, 80, 70, 87, 80, 100, 80, 90, 94, 80, 50, 80, 80, 87, 40, 110,
+				100, 90, 79, 40, 120, 80, 70, 87, 60, 190, 70, 90, 79, 80, 120, 80, 70, 87, 80, 70, 80, 90, 84, 80, 120, 80, 70, 55, 50, 110		
+			],
+			[
+				"Manzana", 
+				100, 90, 89, 80, 120, 80, 70, 87, 70, 190, 70, 90, 79, 80, 120, 80, 70, 87, 80, 130, 80, 90, 84, 80, 110, 80, 70, 87, 50, 110,
+				100, 90, 79, 80, 120, 80, 70, 87, 80, 190, 70, 90, 79, 80, 120, 80, 70, 87, 80, 130, 80, 90, 84, 80, 110, 80, 70, 57, 50, 120,
+				100, 90, 79, 80, 90, 80, 70, 127, 80, 190, 70, 90, 79, 80, 120, 80, 70, 147, 80, 130, 80, 90, 84, 80, 150, 80, 170, 97, 150, 190		
+			]
+		]
+	}
+}
