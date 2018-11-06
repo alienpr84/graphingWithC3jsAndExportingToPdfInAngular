@@ -14,7 +14,6 @@ export class VentaMensualComponent implements OnInit, OnChanges {
   chart: any;
 
   constructor() {
-
    }
 
   ngOnInit() {
@@ -58,6 +57,7 @@ export class VentaMensualComponent implements OnInit, OnChanges {
         }
       }
     });
+
   }
 
   rebuild() {
@@ -140,6 +140,5 @@ export class VentaMensualComponent implements OnInit, OnChanges {
 
     };
   }
-
 
 }
